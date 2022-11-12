@@ -1,0 +1,15 @@
+GET http://localhost:3000/user HTTP/1.1
+
+###
+
+GET http://localhost:3000/user/636f5643be320cbd6a71efe4 HTTP/1.1
+
+###
+
+POST http://localhost:3000/user/ HTTP/1.1
+Content-Type: application/json
+
+{
+    "username": "tan",
+    "email": "hf@yahoo.com"
+}
